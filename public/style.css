@@ -1,0 +1,51 @@
+* {
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.word {
+  display: flex;
+}
+
+.char {
+  width: 90
+  
+  
+  
+  
+  
+  px;
+  height: 90px;
+  border: 2px solid rgb(58, 58, 60);
+  background-color: rgb(18, 18, 19);
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.title {
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(18, 18, 19);
+}
+
+.words {
+  width: 100%;
+}
+
+.word {
+  justify-content: center;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.char {
+  /* center chars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  margin: 5px;
+  height: 93px;
+  background-color: rgb(18, 18, 19);
+}
